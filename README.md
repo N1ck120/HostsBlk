@@ -32,3 +32,5 @@
 [Blackbook](https://github.com/stamparm/blackbook)
 
 [Peter Lowe's](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&startday=01&startmonth=01&startyear=2000&mimetype=plaintext)
+
+[Blokada](https://blokada.org/blocklists/exodusprivacy/standard/hosts.txt)
