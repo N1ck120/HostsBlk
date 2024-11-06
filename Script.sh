@@ -17,6 +17,7 @@ awk '{gsub("127.0.0.1", "0.0.0.0"); print}' hoststmp1 > temp && mv temp hoststmp
 
 curl https://raw.githubusercontent.com/stamparm/blackbook/refs/heads/master/blackbook.txt >> hoststmp2
 curl https://o0.pages.dev/Pro/domains.txt >> hoststmp2
+curl https://blokada.org/blocklists/exodusprivacy/standard/hosts.txt >> hoststmp2
 
 awk '{print "0.0.0.0 " $0}' hoststmp2 > temp && mv temp hoststmp2
 
