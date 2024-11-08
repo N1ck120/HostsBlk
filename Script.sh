@@ -3,10 +3,32 @@
 cd /etc
 cp hosts hosts.bak
 
-#sudo pacman -Sy curo awk
-#sudo dnf install curl awk
-#sudo apt install curl awk
-#sudo pacman -Rsn curo awk
+# Verificar se o sistema é baseado em Debian/Ubuntu (apt)
+if command -v apt &>/dev/null; then
+    echo "Gerenciador de pacotes: APT (Debian/Ubuntu)"
+    sudo apt install curl awk
+# Verificar se o sistema é baseado em RedHat/Fedora/CentOS (dnf ou yum)
+elif command -v dnf &>/dev/null; then
+    echo "Gerenciador de pacotes: DNF (Fedora/CentOS)"
+    sudo dnf install curl awk
+elif command -v yum &>/dev/null; then
+    echo "Gerenciador de pacotes: YUM (RedHat/CentOS)"
+# Verificar se o sistema é baseado em Arch Linux (pacman)
+elif command -v pacman &>/dev/null; then
+    echo "Gerenciador de pacotes: Pacman (Arch Linux)"
+    sudo pacman -Sy curl awk
+# Verificar se o sistema é baseado em openSUSE (zypper)
+elif command -v zypper &>/dev/null; then
+    echo "Gerenciador de pacotes: Zypper (openSUSE)"
+    sudo zypper install curl awk
+fi
+# Caso nenhum dos comandos anteriores seja encontrado
+#else
+#    echo "Não foi possível identificar o gerenciador de pacotes."
+#fi
+
+
+#sudo pacman -Rsn curl awk
 #sudo dnf remove curl awk
 #sudo apt remove curl awk
 
