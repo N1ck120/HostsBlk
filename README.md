@@ -4,33 +4,23 @@
 🇧🇷 Estre projeto visa automatizar o download, unificação, deduplicação e implementação de arquivos de hosts voltados ao bloqueio de anúncios e rastreadores em sistemas baseados em linux.
 
 # Compatibility / Compatibilidade
-🇺🇸 Currently, the project supports only Arch Linux-based systems, but we aim to support other distributions in the future
+🇺🇸 It should work on any Linux system as long as it has internet access and the gawk and curl packages. If your system is based on Arch, Debian, Fedora, or SUSE, don't worry, the search for dependencies should occur automatically.
 
-🇧🇷 Atualmente, o projeto suporta apenas sistemas baseados em Arch Linux, mas pretendemos oferecer suporte a outras distribuições no futuro.
+🇧🇷 Deve funcionar em qualquer sistema Linux desde que o mesmo tenha acesso a internet, e os pacotes gawk e curl, caso seu sistema seja baseado em Arch, Debian, Fedora ou SUSE não se preocupe a busca pelas dependências deve ocorrer de forma automática.
 
 # Acknowledgments / Agradecimentos
 🇺🇸 This project would not have been possible without the incredible work of these projects.
 
 🇧🇷 Este projeto não seria possível sem o trabalho incrivel desses projetos.
 
-[The Block List Project](https://github.com/blocklistproject/Lists)
-
-[Easylist hosts](https://github.com/ProgramComputer/Easylist_hosts)
-
-[Dan pollock's](https://someonewhocares.org/hosts/hosts)
-
-[MVPS](https://winhelp2002.mvps.org/hosts.txt)
-
-[Urlhaus](https://github.com/curbengh/urlhaus-filter)
-
-[GoodbyeAds](https://github.com/jerryn70/GoodbyeAds)
-
-[StevenBlack](https://github.com/StevenBlack/hosts)
-
 [1Hosts](https://github.com/badmojr/1Hosts)
-
 [Blackbook](https://github.com/stamparm/blackbook)
-
-[Peter Lowe's](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&startday=01&startmonth=01&startyear=2000&mimetype=plaintext)
-
 [Blokada](https://blokada.org/blocklists/exodusprivacy/standard/hosts.txt)
+[Dan Pollock's](https://someonewhocares.org/hosts/hosts)
+[Easylist hosts](https://github.com/ProgramComputer/Easylist_hosts)
+[GoodbyeAds](https://github.com/jerryn70/GoodbyeAds)
+[MVPS](https://winhelp2002.mvps.org/hosts.txt)
+[Peter Lowe's](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&startday=01&startmonth=01&startyear=2000&mimetype=plaintext)
+[StevenBlack](https://github.com/StevenBlack/hosts)
+[The Block List Project](https://github.com/blocklistproject/Lists)
+[Urlhaus](https://github.com/curbengh/urlhaus-filter)
