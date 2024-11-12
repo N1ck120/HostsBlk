@@ -6,7 +6,7 @@ cp hosts hosts.bak
 # Verificar se o sistema é baseado em Debian/Ubuntu (apt)
 if command -v apt &>/dev/null; then
     echo "Gerenciador de pacotes: APT (Debian/Ubuntu)"
-    sudo apt install -y curl gawk
+    sudo apt update && sudo apt install -y curl gawk
 # Verificar se o sistema é baseado em RedHat/Fedora/CentOS (dnf ou yum)
 elif command -v dnf &>/dev/null; then
     echo "Gerenciador de pacotes: DNF (Fedora/CentOS)"
@@ -16,7 +16,7 @@ elif command -v yum &>/dev/null; then
 # Verificar se o sistema é baseado em Arch Linux (pacman)
 elif command -v pacman &>/dev/null; then
     echo "Gerenciador de pacotes: Pacman (Arch Linux)"
-    sudo pacman -Sy --noconfirm curl gawk 
+    sudo pacman -S --noconfirm curl gawk 
 # Verificar se o sistema é baseado em openSUSE (zypper)
 elif command -v zypper &>/dev/null; then
     echo "Gerenciador de pacotes: Zypper (openSUSE)"
