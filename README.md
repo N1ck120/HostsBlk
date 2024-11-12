@@ -8,6 +8,40 @@
 
 🇧🇷 Deve funcionar em qualquer sistema Linux desde que o mesmo tenha acesso a internet, e os pacotes gawk e curl, caso seu sistema seja baseado em Arch, Debian, Fedora ou SUSE não se preocupe a busca pelas dependências deve ocorrer de forma automática.
 
+# Usage / Uso
+
+🇺🇸 Clone the repository or download the script separately.
+
+🇧🇷 Clone o repositório ou baixe o script separadamente.
+
+```
+git clone https://github.com/N1ck120/HostsBlk.git
+```
+
+🇺🇸 In the same folder where Script.sh is located, run the command to grant execute permissions.
+
+🇧🇷 Na mesma pasta onde está o Script.sh rode o comando para dar permissões de execução.
+
+```
+chmod +x Script.sh
+```
+
+🇺🇸 Now run the Script.sh with sudo.
+
+🇧🇷 Agora rode o Script.sh com sudo.
+
+```
+sudo ./Script.sh
+```
+# Do you want to revert the changes? / Quer reverter as alterações?
+🇺🇸 Run the following command:
+
+🇧🇷 Rode o seguinte comando:
+
+```
+sudo mv /etc/hosts.bak /etc/hosts
+```
+
 # Acknowledgments / Agradecimentos
 🇺🇸 This project would not have been possible without the incredible work of these projects.
 
