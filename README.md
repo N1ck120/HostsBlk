@@ -1,3 +1,5 @@
+Read this in other languages: [Português do Brasil](READMEpt_BR.md)
+
 # HostsBlk
 
 This project aims to automate the download, unification, deduplication, and implementation of host files focused on blocking ads and trackers on Linux-based systems.
