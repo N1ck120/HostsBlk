@@ -1,3 +1,5 @@
+Leia isso em outros idiomas: [English](README.md)
+
 # HostsBlk
 
 Este projeto visa automatizar o download, unificação, deduplicação e implementação de arquivos de hosts voltados ao bloqueio de anúncios e rastreadores em sistemas baseados em linux.
